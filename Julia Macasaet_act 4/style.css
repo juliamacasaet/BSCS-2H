@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backgroundd.jpg);
+}
+.container{
+    display: flex;
+    height: 700px;
+    width: 980px;
+    border: 1px solid rgb(244, 6, 232);
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    
+    
+}
+.form h3{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid rgb(254, 253, 254);
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: rgb(244, 240, 244);
+    color: rgb(20, 1, 19);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(241, 148, 248);
+}
+.form a{
+    text-decoration: none;
+    color: rgb(214, 12, 214);
+    margin-top: 20px;
+}
+.form a:hover{
+    color: rgb(244, 238, 244);
+}
+.side{
+    display: flex; 
+    padding: 10px;
+}
